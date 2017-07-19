@@ -296,11 +296,6 @@ class GoogleHistoryTileMapRequest:
         retStr = "".join(resStrArray)
         return retStr
 
-#测试代码
-# url = 'https://khmdb.google.com/flatfile?db=tm&f1-021023310132121031-i.6-fb102'
-# filename = u'C:\\Users\\zhoulei\\Desktop\\周磊test.data'
-# WebFileDownload.SimpleDownload(url, filename)
-
 
 rootUrl = 'https://khmdb.google.com/flatfile?db=tm'
 boundRc = [90, 180, 90, 0]
